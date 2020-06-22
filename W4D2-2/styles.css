@@ -1,0 +1,12 @@
+
+body {
+background-color: green;
+}
+
+.grid {
+    width: 80%;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-row: 100px 100px;
+    grid-auto-rows:
+    border: 2px solid black;
+}

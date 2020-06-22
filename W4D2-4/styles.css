@@ -1,0 +1,21 @@
+body {
+  background-color: green;
+}
+
+.grid {
+  display: grid;
+  width: 80%;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+  grid-auto-rows: 400px;
+  border: 2px solid black;
+  margin-left: 10%;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.grid img:hover {
+  opacity: 0.2;
+}
